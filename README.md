@@ -15,10 +15,12 @@ When we start to use clustering inside of a node app, we are going to be startin
 
 The cluster manager itself doesn't execute any app code, in another words the cluster manager is not responsible for handling any request or fetching data from the database. Instead the cluster manager is responsible for monitoring the health of each of the instances. So the cluster manager can start, stop, restart, send them data or do administrative tasks essentially.
 
-We can create the cluster manager and instances of our app and manage the health of each instances but there is one perticular library which will help mitigate this task. Its [pm2]("https://gitlab.com/Unitech/pm2") library.
+We can create the cluster manager and instances of our app and manage the health of each instances but there is one perticular library which will help mitigate this task. Its [pm2]("https://githab.com/Unitech/pm2") library.
+
+**Install Library**
 
 ```bash
-$ npm i -g pm
+$ npm i -g pm2
 ```
 
 **Start pm2**
